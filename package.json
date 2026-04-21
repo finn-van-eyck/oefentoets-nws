@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "nodemon --ext ts --exec ts-node ./server/app.ts"
+    "dev": "nodemon --ext ts --exec ts-node ./server/app.ts"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/finn-van-eyck/oefentoets-nws#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "postgres": "^3.4.9"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
